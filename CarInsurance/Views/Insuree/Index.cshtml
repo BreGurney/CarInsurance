@@ -1,4 +1,4 @@
-﻿@model IEnumerable<CarInsurance.Models.Table>
+﻿@model IEnumerable<CarInsurance.Models.Insuree>
 
 @{
     ViewBag.Title = "Index";
@@ -39,7 +39,7 @@
             @Html.DisplayNameFor(model => model.SpeedingTickets)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.CoverageType)
+            @Html.DisplayNameFor(model => model.ConverageType)
         </th>
         <th>
             @Html.DisplayNameFor(model => model.Quote)
@@ -77,7 +77,7 @@
             @Html.DisplayFor(modelItem => item.SpeedingTickets)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.CoverageType)
+            @Html.DisplayFor(modelItem => item.ConverageType)
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.Quote)

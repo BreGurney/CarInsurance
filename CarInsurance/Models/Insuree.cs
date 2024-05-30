@@ -12,7 +12,7 @@ namespace CarInsurance.Models
     using System;
     using System.Collections.Generic;
     
-    public partial class Table
+    public partial class Insuree
     {
         public int Id { get; set; }
         public string FirstName { get; set; }
@@ -24,7 +24,7 @@ namespace CarInsurance.Models
         public string CarModel { get; set; }
         public bool DUI { get; set; }
         public int SpeedingTickets { get; set; }
-        public bool CoverageType { get; set; }
         public decimal Quote { get; set; }
+        public bool CoverageType { get; set; }
     }
 }
